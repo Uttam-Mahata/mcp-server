@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "github-gemini": {
+      "command": "python",
+      "args": ["__main__.py"],
+      "cwd": "/home/uttammahata/mcp-server",
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}",
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      }
+    }
+  }
+}
